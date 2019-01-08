@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+  body {
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main__project{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.paragraph__content{
+    font-size: 22px;
+}
+.list__tasks{
+    font-size: 22px;
+}
+.projectlink:hover{
+    color: bisque;
+}
