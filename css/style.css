@@ -10,7 +10,7 @@ body {
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  border-bottom: 4px solid pink;
+  border-bottom: 4px solid #ffc900;
 }
 .header__navigation{
   text-align: center;
