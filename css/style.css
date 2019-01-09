@@ -401,7 +401,7 @@ div a.footerimage__icon.footerimage__icon--google::after{
   color: white;
   content: "Google";
   position: absolute;
-  right: 70px;
+  right: 55px;
   margin-top: -40px;
   font-size: 23px;
 }
@@ -409,7 +409,7 @@ div a.footerimage__icon.footerimage__icon--linkedin::after{
   color: white;
   content: "linkedin";
   position: absolute;
-  right: 62px;
+  right: 48px;
   margin-top: -39px;
   font-size: 23px;
 }
@@ -417,7 +417,7 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
   color: white;
   content: "facebook";
   position: absolute;
-  right: 56px;
+  right: 37px;
   margin-top: -40px;
   font-size: 23px;
 }
