@@ -1,0 +1,188 @@
+body {
+    margin-left: 50px;
+    background-color: #00bcd4;
+}
+
+
+h1 {    
+    color: red;
+}
+
+.sheep__body{
+    height: 129px;
+    width: 120px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+}   
+
+.sheep__head{
+    height: 100px;
+    width: 80px;
+    border-style: solid;
+    border-radius: 40%;
+    position: absolute;
+    background-color: black;
+    left: 80px;
+    top: 20px;
+    border-bottom-right-radius: 20%;
+
+} 
+
+.sheep__eye{
+    height: 23px;
+    width: 22px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+}
+
+.sheep__eye--left {
+    position: absolute;
+    left: 9px;
+    top: 30px;
+}
+
+.sheep__eye--right{
+    position: absolute;
+    top: 30px;
+    right: -9px;
+}
+
+.sheep__eye-spot{
+    height: 5px;
+    width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin-top: 9px;
+    margin-left: 3px;
+    background-color: black;
+    transition-property: width, height; /* Safari */
+    transition-duration: 2s; /* Safari */
+    transition-property: width, height;
+    transition-duration: 2s;
+    transform: translateY(10px);
+    background-color: pink;
+    animation: color-me-in 5s infinite;
+}
+      
+    @keyframes color-me-in {
+        0% {
+          background: orange;
+        }
+        50% {
+          background: blue;
+        }
+        100% {
+          background: red;
+        }
+      
+}
+.sheep__eye-spot:hover{
+    width:10px;
+    color:red;
+}
+
+.sheep__ear{
+    height: 42px;
+    width: 37px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    
+}
+
+.sheep__ear--left {
+    position: absolute;
+    left: -16px;
+    top: -9px;
+    background-color: black;
+    border-top-left-radius: 85%;
+}
+.sheep__ear--right {
+    position: absolute;
+    right: -16px;
+    top: -9px;
+    background-color: black;
+    border-top-right-radius: 85%;
+
+}
+.sheep__chin{
+    height: 35px;
+    width: 35px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: black;
+    background-color: whight;
+    border-bottom-left-radius: 40%;
+    position: absolute;
+    top: 61px;
+    left: 51px;
+}
+    
+
+
+.sheep__leg {
+    height: 38px;
+    width: 4px;
+    border-style: solid;
+    border-radius: 14%;
+    position: absolute;
+    display: inline-block;
+    margin-left: 21px;
+    background-color: black;
+    top: 108px;
+    z-index: -1;
+}
+
+.sheep__leg--1 {
+    margin-left: 17px;
+}
+
+.sheep__leg--2 {
+    margin-left: 34px;
+}
+
+.sheep__leg--3 {
+    margin-left: 55px;
+}
+.sheep__leg--4 {
+    margin-left: 78px;
+}
+.shadow__body{
+    height: 30px;
+    width: 168px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    top: 216px;
+    opacity: 0.4;
+}
+
+button {
+    font-size: 1.1em;
+    background-color: #EBF5FF;
+    color: #4312AE;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+}
+
+button:hover {
+    /* swap colors */
+    color: #EBF5FF;
+    background-color: #4312AE;
+    cursor: pointer; 
+}
+
+button:focus {
+    color: red;
+}
+
+button:active {
+    color: yellow;
+}
