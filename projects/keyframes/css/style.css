@@ -1,0 +1,286 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.grass, .sky, .road{
+    position: relative;
+}
+
+.sky{
+    height: 40%;
+    background: skyblue;
+    padding-top: 50px;
+}
+
+.cloud__1-container{
+    height: 47px;
+    width: 115px;
+    position: absolute;
+    background: #fff;
+    top: 94px;
+    left: 0;
+    border-radius: 96%/100px 100px 0 0;
+    animation: move 35s linear infinite;
+}
+
+.cloud__1.cloud--1{
+    height: 49px;
+    width: 56px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: -24px;
+    left: 56px;
+}
+
+.cloud__1.cloud--2{
+    height: 44px;
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: 4px;
+    left: 99px;
+}
+
+.cloud__1.cloud--3{
+    height: 44px;
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: -19px;
+    left: 20px;
+}
+
+.cloud__1.cloud--4{
+    height: 44px;
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: 5px;
+    left: -13px;
+}
+
+.cloud__2-container{
+    height: 47px;
+    width: 115px;
+    position: absolute;
+    background: #fff;
+    top: 256px;
+    left: 53px;
+    border-radius: 96%/100px 100px 0 0;
+    animation: move 20s linear infinite;
+}
+
+.cloud__2.cloud--1{
+    height: 44px;
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: 5px;
+    left: 84px;
+}
+
+.cloud__2.cloud--2{
+    height: 49px;
+    width: 56px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: -31px;
+    left: 45px;
+}
+
+.cloud__2.cloud--3{
+    height: 44px;
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: -19px;
+    left: 5px;
+}
+
+.cloud__2.cloud--4{
+    height: 44px;
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: 5px;
+    left: -23px;
+}
+
+.cloud__3-container{
+    height: 47px;
+    width: 93px;
+    position: absolute;
+    background: #fff;
+    top: 42px;
+    left: 309px;
+    border-radius: 96%/100px 100px 0 0;
+    animation: move 30s linear infinite;
+}
+
+.cloud__3.cloud--1{
+    height: 41px;
+    width: 48px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: -16px;
+    left: 47px;
+}
+
+.cloud__3.cloud--2{
+    height: 36px;
+    width: 38px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: 12px;
+    left: 72px;
+}
+
+.cloud__3.cloud--3{
+    height: 38px;
+    width: 37px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: -14px;
+    left: 13px;
+}
+
+.cloud__3.cloud--4{
+    height: 39px;
+    width: 42px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: 9px;
+    left: -11px;
+}
+
+.cloud__4-container{
+    height: 47px;
+    width: 93px;
+    position: absolute;
+    background: #fff;
+    top: 158px;
+    left: 272px;
+    border-radius: 96%/100px 100px 0 0;
+    animation: move 18s linear infinite;
+}
+.cloud__4.cloud--1{
+    height: 41px;
+    width: 48px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: -16px;
+    left: 47px;
+}
+
+.cloud__4.cloud--2{
+    height: 36px;
+    width: 38px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: 12px;
+    left: 72px;
+}
+
+.cloud__4.cloud--3{
+    height: 38px;
+    width: 37px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: -14px;
+    left: 13px;
+}
+
+
+.cloud__4.cloud--4{
+    height: 39px;
+    width: 42px;
+    border-radius: 50%;
+    position: absolute;
+    background: #fff;
+    top: 9px;
+    left: -11px;
+}
+
+.picture {
+    width: 90%;
+}
+.image {
+    width: 100%;
+}
+
+
+@keyframes move{
+    from { 
+        transform: translateX(0) scale(1);
+    }
+    to { 
+        transform: translateX(100vw) scale(0.40);
+    }
+}
+
+
+.grass{
+    height: 30%;
+    background: seagreen;
+}
+
+.road{
+    height: 30%;
+    background: dimgrey;
+    box-sizing: border-box;
+    border-top: 10px solid grey;
+    border-bottom: 10px solid grey;
+    width: 100%;
+}
+
+.lines{
+    box-sizing: border-box;
+    border: 5px dashed #fff;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    
+}
+.car{
+    height: 140px;
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    animation: drive 10s infinite;
+}
+
+@keyframes drive{
+    from{ transform: translateX(0) }
+    to { transform: translateX(100vw)}
+}
+
+button {
+    font-size: 1.1em;
+    border: 0px;              
+    background-color: #EBF5FF;
+}
+  button:hover, button:focus, button:active {
+    /* swap colors */
+    color: #EBF5FF;
+    background-color:gray;
+    cursor: pointer; /* displays a hand */
+}
