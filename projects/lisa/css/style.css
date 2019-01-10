@@ -1,0 +1,1849 @@
+body {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.lisa__head{
+    height: 354px;
+    width: 366px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #FFD520;
+    top: 50px;
+    border-bottom-left-radius: 6%;
+}
+
+.lisa__hair {
+    height: 76px;
+    width: 80px;
+    border-style: solid;
+    border-radius: 50%;
+    position: absolute;
+    background-color:#FFD520;
+    z-index: -1;
+}
+
+.lisa__hair.lisa__hair--1, .lisa__hair.lisa__hair--2{
+    border-top-right-radius: 4%;
+    transform: rotate(15deg);
+}
+
+.lisa__hair.lisa__hair--1{
+    left: 297px;
+    top: 77px;
+}
+
+.lisa__hair.lisa__hair--2{
+    left: 256px;
+    top: 21px;
+}
+
+.lisa__hair.lisa__hair--3{
+    height: 60px;
+    width: 66px;
+    left: 213px;
+    top: -24px;
+    border-top-right-radius: 4%;
+    transform: rotate(-21deg);
+}
+.lisa__hair.lisa__hair--4{
+    width: 57px;
+    left: 155px;
+    top: -50px;
+    border-top-left-radius: 4px;
+    transform: rotate(39deg);
+}
+
+.lisa__hair.lisa__hair--5, .lisa__hair.lisa__hair--6, .lisa__hair.lisa__hair--8, .lisa__hair.lisa__hair--9{
+    border-top-right-radius: 4%;
+    transform: rotate(-77deg);
+}
+.lisa__hair.lisa__hair--5{
+    left: 72px;
+    top: -37px;
+}
+
+.lisa__hair.lisa__hair--7{
+    width: 72px;
+    left: -36px;
+    top: 60px;
+    border-top-left-radius: 2px;
+    transform: rotate(-38deg);
+}
+
+.lisa__hair.lisa__hair--8{
+    left: -45px;
+    top: 135px;
+    transform: rotate(-147deg);
+}
+
+.lisa__hair.lisa__hair--9{
+    height: 63px;
+    border-color: #000 #000 transparent transparent;
+    left: -26px;
+    top: 207px;
+    transform: rotate(-175deg);
+    z-index: 1;
+}
+
+.lisa__head:hover .lisa__hair--1{
+      animation: move-lisa__hair--1 1.5s infinite ease-in-out alternate;
+  }
+  
+  @keyframes move-lisa__hair--1{
+    0% { 
+        transform: rotate(-30deg)
+     }
+    100% { 
+        transform: rotate(0deg) 
+    }
+}
+
+.lisa__head:hover .lisa__hair--2{
+    animation: move-lisa__hair--2 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes move-lisa__hair--2{
+  0% {
+       transform: rotate(-30deg)
+     }
+  100% {
+       transform: rotate(0deg)
+     }
+}
+
+.lisa__head:hover .lisa__hair--3{
+    animation: move-lisa__hair--3 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes move-lisa__hair--3{
+  0% { 
+      transform: rotate(-40deg) 
+    }
+  100% { 
+      transform: rotate(0deg) 
+    }
+}
+
+.lisa__head:hover .lisa__hair--4{
+    animation: move-lisa__hair--4 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes move-lisa__hair--4{
+  0% { 
+      transform: rotate(-20deg)
+     }
+  100% { 
+      transform: rotate(30deg) 
+    }
+}
+
+.lisa__head:hover .lisa__hair--5{
+    animation: move-lisa__hair--5 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes move-lisa__hair--5{
+  0% { 
+      transform: rotate(-90deg)
+     }
+  100% { 
+      transform: rotate(-20deg) 
+    }
+}
+
+.lisa__head:hover .lisa__hair--6{
+    animation: move-lisa__hair--5 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes move-lisa__hair--6{
+  0% { 
+      transform: rotate(-110deg) 
+    }
+  100% { 
+      transform: rotate(-10deg) 
+    }
+}
+
+.lisa__head:hover .lisa__hair--7{
+    animation: move-lisa__hair--7 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes move-lisa__hair--7{
+  0% { 
+      transform: rotate(-30deg)
+     }
+  100% { 
+      transform: rotate(30deg)
+     }
+}
+
+.lisa__head:hover .lisa__hair--8{
+    animation: move-lisa__hair--8 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes move-lisa__hair--8{
+  0% { 
+      transform: rotate(-130deg) 
+    }
+  100% { 
+      transform: rotate(-60deg) 
+    }
+}
+
+.lisa__head:hover .lisa__hair--9{
+    animation: move-lisa__hair--9 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes move-lisa__hair--9{
+  0% { 
+      transform: rotate(-180deg) 
+    }
+  100% {
+       transform: rotate(-170deg) 
+    }
+}
+  
+.lisa__eyelashes{
+    height: 6px;
+    width: 24px;
+    background-color: black;
+    display: inline-block;
+    border: solid -2px #000;
+    border-color: #000 transparent transparent transparent;
+
+}
+
+.lisa__eyelashes.lisa__eyelashes--1{
+    position: absolute;
+    top: 22px;
+    right: -16px;
+    border-radius: 11%/5px 10px 0 0;
+    transform: rotate(126deg);
+
+}
+
+.lisa__eyelashes.lisa__eyelashes--2{
+    position: absolute;
+    top: -4px;
+    right: 5px;
+    border-radius: 11%/5px 10px 0 0;
+    transform: rotate(101deg);
+}
+
+.lisa__eyelashes.lisa__eyelashes--3{
+    position: absolute;
+    top: -13px;
+    right: 37px;
+    border-radius: 11%/5px 10px 0 0;
+    transform: rotate(68deg);
+}
+
+.lisa__eyelashes.lisa__eyelashes--4{
+    position: absolute;
+    top: -12px;
+    right: 65px;
+    border-radius: 11%/5px 10px 0 0;
+    transform: rotate(56deg);
+}
+
+.lisa__eyelashes.lisa__eyelashes--5{
+    position: absolute;
+    top: -13px;
+    right: 29px;
+    border-radius: 92%/31px 29px 0 0;
+    transform: rotate(79deg);
+}
+
+.lisa__eyelashes.lisa__eyelashes--6{
+    position: absolute;
+    top: -13px;
+    right: 64px;
+    border-radius: 56%/20px 5px 0 0;
+    transform: rotate(54deg);
+}
+
+.lisa__eyelashes.lisa__eyelashes--7{
+    position: absolute;
+    top: 5px;
+    right: 96px;
+    border-radius: 109%/25px 43px 0 0;
+    transform: rotate(236deg);
+}
+
+.lisa__eyelashes.lisa__eyelashes--8{
+    position: absolute;
+    top: 30px;
+    right: 109px;
+    border-radius: 87%/19px 10px 0 0;
+    transform: rotate(214deg);
+}
+
+.lisa__eye{
+    height: 106px;
+    width: 113px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    border-style: solid;
+}
+
+.lisa__eye.lisa__eye--right{
+    position: absolute;
+    top: 123px;
+    right: -13px;
+}
+.shut1, .shut2{
+    height: 106px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.shut1{
+    width: 110px;
+    transform: translate(1.5%,0%);
+}
+
+.lisa__eye.lisa__eye--left{
+    position: absolute;
+    top: 144px;
+    right: 87px;
+    z-index: 1;
+}
+
+.shut2{
+    width: 113px;
+    z-index: 1;
+    transform: translate(0%,0%);
+}
+
+.shut1 span,.shut2 span{
+    display: block;
+    width: 100%;
+    height: 46%;
+    background: #ff6b6b;
+}
+
+.lisa__head:hover  .shut1 span, .lisa__head:hover  .shut2 span{
+       height:100%; 
+       transition: height 2s ease-in;
+}
+
+.lisa__head:hover .lisa__eyelashes{
+   background-color: transparent;
+}
+
+.lisa__head  .shut1 span, .lisa__head  .shut2 span{
+ transition: height 2s ease-in;
+}
+
+.lisa__spot{
+    height: 13px;
+    width: 11px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 67px;
+    left: 43px;
+    background-color: black;
+}
+.lisa__nose, .undernose{
+    height: 35px;
+    width: 79px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #FFD520;
+    border-top-right-radius: 10px;
+}
+
+.lisa__nose{
+    top: 203px;
+    left: 240px;
+    border-style: solid;
+}
+
+.undernose{
+    top: 229px;
+    left: 212px;
+}
+
+.lisa__mouth{
+    height: 78px;
+    width: 106px;
+    border-radius: 50%;
+    display: inline-block;
+    border-style: solid;
+    background-color: #FFD520;
+    position: absolute;
+    top: 212px;
+    right: -16px;
+    border-top-right-radius: 2px;
+    transform: rotate(-18deg);
+    border-bottom-left-radius: 1px;
+    z-index: -1;
+}
+
+.undermouth{
+    width: 123px;
+    height: 17px;
+    border: solid 6px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 198%/71px 95px 0 0;
+    transform: rotateX(216deg);
+    position: absolute;
+    top: 283px;
+    left: 195px;
+    z-index: 1;
+}
+
+.smilemouth{
+    width: 28px;
+    height: 31px;
+    border-left: solid 5px #000;
+    border-radius: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    top: 292px;
+    left: 202px;
+    z-index: 1;
+
+}
+
+.lisa__ear.lisa__ear--1{
+    height: 20px;
+    width: 6px;
+    border-radius: 35%;
+    background-color: black;
+    position: absolute;
+    top: 228px;
+    right: 304px;
+    transform: rotate(-59deg);
+    z-index: 1;
+}
+
+.lisa__ear.lisa__ear--2{
+    height: 32px;
+    width: 41px;
+    border: solid 5px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 119%/100px 100px 0 0;
+    transform: rotate(-75deg);
+    position: absolute;
+    top: 216px;
+    right: 291px;
+    z-index: 1;
+}
+
+.lisa__ear.lisa__ear--3{
+    height: 70px;
+    width: 26px;
+    border: solid 5px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 70%/15px 100px 0 0;
+    transform: rotate(-75deg);
+    position: absolute;
+    top: 204px;
+    right: 260px;
+    z-index: 1;
+}
+
+.lisa__ear.lisa__ear--4{
+    height: 66px;
+    width: 112px;
+    border: solid 5px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 70%/15px 100px 0 0;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 278px;
+    right: 276px;
+}
+
+.backear{
+    width: 123px;
+    height: 17px;
+    border: none;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 198%/71px 95px 0 0;
+    transform: rotateX(216deg);
+    position: absolute;
+    top: 283px;
+    left: 2px;
+}
+
+.neck{
+    width: 138px;
+    height: 55px;
+    border: solid 6px white;
+    border-radius: 187%/78px 84px 0 0;
+    background-color: white;
+    transform: rotate(86deg);
+    position: absolute;
+    top: 257px;
+    left: -49px;
+}
+
+.underneck{
+    height: 74px;
+    width: 115px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 305px;
+    right: 19px;
+    border: 2px solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(16deg);
+}
+
+.lisa__neckpearl {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: solid 1px black;
+    background: white;
+    border-radius: 50%;
+}
+
+.lisa__neckpearl-container{
+    height: 33px;
+    width: 201px;
+    position: absolute;
+    bottom: -34px;
+    right: 122px;
+}
+
+.lisa__neckpearl.lisa__neckpearl--1{
+    position: absolute;
+    left: -10px;
+    top: -17px;
+    
+}
+
+.lisa__neckpearl.lisa__neckpearl--2{
+    position: absolute;
+    bottom: -47px;
+    left: 31px;
+    top: -8px;
+
+}
+
+.lisa__neckpearl.lisa__neckpearl--3{
+    position: absolute;
+    bottom: -47px;
+    left: 73px;
+    top: -8px;
+}
+
+.lisa__neckpearl.lisa__neckpearl--4{
+    position: absolute;
+    bottom: -47px;
+    left: 115px;
+    top: -11px;
+}
+
+.lisa__neckpearl.lisa__neckpearl--5{
+    position: absolute;
+    bottom: -47px;
+    left: 156px;
+    top: -19px;
+    z-index: 1;
+}
+
+.lisa__head:hover .lisa__spot{
+    animation: move-lisa__spot 5s ease-in-out infinite;
+}
+
+@keyframes move-lisa__spot {
+    0% { 
+        transform: translateX(2px);
+    }
+    25%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(30px);
+    }
+    75%{
+        transform: translateX(20px);
+    }
+    100% { 
+        transform: translateX(2px);
+    }
+
+}
+
+/*Last login: Tue Jan  8 16:17:30 on ttys000
+e17442:~ ssium$ ls
+Applications    Downloads   Music       firstfile
+Desktop     Library     Pictures    projects
+Documents   Movies      Public      semhar2
+e17442:~ ssium$ ls -l
+total 0
+drwx------@  4 ssium  1030016046   128 Oct  1 09:46 Applications
+drwx------+ 13 ssium  1030016046   416 Jan  8 12:11 Desktop
+drwx------+  3 ssium  1030016046    96 Oct 17 17:27 Documents
+drwx------+ 44 ssium  1030016046  1408 Jan  8 14:02 Downloads
+drwx------@ 58 ssium  1030016046  1856 Oct  1 09:40 Library
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Movies
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Music
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Pictures
+drwxr-xr-x+  4 ssium  1030016046   128 Sep 26 10:10 Public
+drwxr-xr-x   2 ssium  1030016046    64 Oct  1 13:49 firstfile
+drwxr-xr-x  17 ssium  1030016046   544 Jan  8 16:28 projects
+drwxr-xr-x   2 ssium  1030016046    64 Jan  8 13:43 semhar2
+e17442:~ ssium$ cd  projects
+e17442:projects ssium$ ls
+ JQ copy    calculator  keyframes   one page    one_page_JQ
+Portfolio   calculator copy lisa        one page copy   semhar
+array       cartoon     my-profile  one page copy 2
+e17442:projects ssium$ ls -l
+total 0
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03  JQ copy
+drwxr-xr-x  10 ssium  1030016046  320 Nov  9 19:18 Portfolio
+drwxr-xr-x   6 ssium  1030016046  192 Oct 23 10:59 array
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator copy
+drwxr-xr-x   6 ssium  1030016046  192 Oct  3 09:24 cartoon
+drwxr-xr-x   7 ssium  1030016046  224 Oct 10 17:23 keyframes
+drwxr-xr-x   5 ssium  1030016046  160 Oct  5 22:54 lisa
+drwxr-xr-x  10 ssium  1030016046  320 Jan  8 16:27 my-profile
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy 2
+drwxr-xr-x   9 ssium  1030016046  288 Jan  8 16:34 one_page_JQ
+drwxr-xr-x   5 ssium  1030016046  160 Nov  7 15:05 semhar
+e17442:projects ssium$ cd one_page_JQ
+e17442:one_page_JQ ssium$ ls
+css     index.html  projects
+img     js      slick
+e17442:one_page_JQ ssium$ ls -l
+total 32
+drwxr-xr-x   5 ssium  1030016046    160 Nov 26 14:04 css
+drwxr-xr-x  58 ssium  1030016046   1856 Jan  4 16:15 img
+-rw-r--r--@  1 ssium  1030016046  13214 Jan  8 11:46 index.html
+drwxr-xr-x   6 ssium  1030016046    192 Dec 18 15:48 js
+drwxr-xr-x   7 ssium  1030016046    224 Jan  8 11:34 projects
+drwxr-xr-x@ 14 ssium  1030016046    448 Dec 14 15:59 slick
+e17442:one_page_JQ ssium$ clone git https://github.com/semharsium/my-profile.git
+-bash: clone: command not found
+e17442:one_page_JQ ssium$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+
+e17442:one_page_JQ ssium$ cd..
+-bash: cd..: command not found
+e17442:one_page_JQ ssium$ git clone https://github.com/semharsium/my-profile.git
+Cloning into 'my-profile'...
+warning: You appear to have cloned an empty repository.
+e17442:one_page_JQ ssium$ cd status
+-bash: cd: status: No such file or directory
+e17442:one_page_JQ ssium$ git status
+fatal: not a git repository (or any of the parent directories): .git
+e17442:one_page_JQ ssium$ cd 
+e17442:~ ssium$ ls
+Applications    Downloads   Music       firstfile
+Desktop     Library     Pictures    projects
+Documents   Movies      Public      semhar2
+e17442:~ ssium$ cd ..
+e17442:Users ssium$ pwd
+/Users
+e17442:Users ssium$ cd
+e17442:~ ssium$ cd..
+-bash: cd..: command not found
+e17442:~ ssium$ ls
+Applications    Downloads   Music       firstfile
+Desktop     Library     Pictures    projects
+Documents   Movies      Public      semhar2
+e17442:~ ssium$ ls -l
+total 0
+drwx------@  4 ssium  1030016046   128 Oct  1 09:46 Applications
+drwx------+ 13 ssium  1030016046   416 Jan  8 12:11 Desktop
+drwx------+  3 ssium  1030016046    96 Oct 17 17:27 Documents
+drwx------+ 44 ssium  1030016046  1408 Jan  8 14:02 Downloads
+drwx------@ 58 ssium  1030016046  1856 Oct  1 09:40 Library
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Movies
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Music
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Pictures
+drwxr-xr-x+  4 ssium  1030016046   128 Sep 26 10:10 Public
+drwxr-xr-x   2 ssium  1030016046    64 Oct  1 13:49 firstfile
+drwxr-xr-x  17 ssium  1030016046   544 Jan  8 16:28 projects
+drwxr-xr-x   2 ssium  1030016046    64 Jan  8 13:43 semhar2
+e17442:~ ssium$ cd projects/
+e17442:projects ssium$ ls -l
+total 0
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03  JQ copy
+drwxr-xr-x  10 ssium  1030016046  320 Nov  9 19:18 Portfolio
+drwxr-xr-x   6 ssium  1030016046  192 Oct 23 10:59 array
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator copy
+drwxr-xr-x   6 ssium  1030016046  192 Oct  3 09:24 cartoon
+drwxr-xr-x   7 ssium  1030016046  224 Oct 10 17:23 keyframes
+drwxr-xr-x   5 ssium  1030016046  160 Oct  5 22:54 lisa
+drwxr-xr-x  10 ssium  1030016046  320 Jan  8 16:27 my-profile
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy 2
+drwxr-xr-x   4 ssium  1030016046  128 Jan  8 16:49 one_page_JQ
+drwxr-xr-x   5 ssium  1030016046  160 Nov  7 15:05 semhar
+e17442:projects ssium$ one
+-bash: one: command not found
+e17442:projects ssium$ ls -l
+total 0
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03  JQ copy
+drwxr-xr-x  10 ssium  1030016046  320 Nov  9 19:18 Portfolio
+drwxr-xr-x   6 ssium  1030016046  192 Oct 23 10:59 array
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator copy
+drwxr-xr-x   6 ssium  1030016046  192 Oct  3 09:24 cartoon
+drwxr-xr-x   7 ssium  1030016046  224 Oct 10 17:23 keyframes
+drwxr-xr-x   5 ssium  1030016046  160 Oct  5 22:54 lisa
+drwxr-xr-x  10 ssium  1030016046  320 Jan  8 16:27 my-profile
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy 2
+drwxr-xr-x   4 ssium  1030016046  128 Jan  8 16:49 one_page_JQ
+drwxr-xr-x   5 ssium  1030016046  160 Nov  7 15:05 semhar
+e17442:projects ssium$ one_page_JQ/
+-bash: one_page_JQ/: is a directory
+e17442:projects ssium$ 
+e17442:projects ssium$ cd
+e17442:~ ssium$ pwd
+/Users/ssium
+e17442:~ ssium$ ls -l
+total 0
+drwx------@  4 ssium  1030016046   128 Oct  1 09:46 Applications
+drwx------+ 13 ssium  1030016046   416 Jan  8 12:11 Desktop
+drwx------+  3 ssium  1030016046    96 Oct 17 17:27 Documents
+drwx------+ 44 ssium  1030016046  1408 Jan  8 14:02 Downloads
+drwx------@ 58 ssium  1030016046  1856 Oct  1 09:40 Library
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Movies
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Music
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Pictures
+drwxr-xr-x+  4 ssium  1030016046   128 Sep 26 10:10 Public
+drwxr-xr-x   2 ssium  1030016046    64 Oct  1 13:49 firstfile
+drwxr-xr-x  17 ssium  1030016046   544 Jan  8 16:28 projects
+drwxr-xr-x   2 ssium  1030016046    64 Jan  8 13:43 semhar2
+e17442:~ ssium$ cd projects
+e17442:projects ssium$ ls -l
+total 0
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03  JQ copy
+drwxr-xr-x  10 ssium  1030016046  320 Nov  9 19:18 Portfolio
+drwxr-xr-x   6 ssium  1030016046  192 Oct 23 10:59 array
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator copy
+drwxr-xr-x   6 ssium  1030016046  192 Oct  3 09:24 cartoon
+drwxr-xr-x   7 ssium  1030016046  224 Oct 10 17:23 keyframes
+drwxr-xr-x   5 ssium  1030016046  160 Oct  5 22:54 lisa
+drwxr-xr-x  10 ssium  1030016046  320 Jan  8 16:27 my-profile
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy 2
+drwxr-xr-x   4 ssium  1030016046  128 Jan  8 16:49 one_page_JQ
+drwxr-xr-x   5 ssium  1030016046  160 Nov  7 15:05 semhar
+e17442:projects ssium$ cd one_page_JQ/
+e17442:one_page_JQ ssium$ ls -l
+total 0
+drwxr-xr-x  10 ssium  1030016046  320 Jan  8 16:49 my-profile
+e17442:one_page_JQ ssium$ pwd
+/Users/ssium/projects/one_page_JQ
+e17442:one_page_JQ ssium$ cd my-profile/
+e17442:my-profile ssium$ pwd
+/Users/ssium/projects/one_page_JQ/my-profile
+e17442:my-profile ssium$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    .DS_Store
+    css/
+    img/
+    index.html
+    js/
+    projects/
+    slick/
+
+nothing added to commit but untracked files present (use "git add" to track)
+e17442:my-profile ssium$ git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+    .DS_Store
+    css/
+    img/
+    index.html
+    js/
+    projects/
+    slick/
+
+nothing added to commit but untracked files present
+e17442:my-profile ssium$ git commit-m
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+    commit-tree
+e17442:my-profile ssium$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+    add
+e17442:my-profile ssium$ git add /Users/ssium/projects/one_page_JQ/my-profile 
+e17442:my-profile ssium$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+    new file:   .DS_Store
+    new file:   css/.DS_Store
+    new file:   css/reset.css
+    new file:   css/style.css
+    new file:   img/.DS_Store
+    new file:   img/39051976650_3d97a05b1e_b.jpg
+    new file:   img/45763776_285522602170461_689190587122843648_n.png
+    new file:   img/Cv-Semhar-Sium.pdf
+    new file:   img/DMtNUuXVoAAbg7s.jpg
+    new file:   img/DPFDccnWAAAC1rf.jpg
+    new file:   img/DkoPTLTXcAAPzPq.jpg
+    new file:   img/Document1.docx
+    new file:   img/Document2.docx
+    new file:   img/Eritrean_Railway_-_2008-11-04-edit1.jpg
+    new file:   img/ItLogo.png
+    new file:   img/UoL-reference-form-updated-12 (1).pdf
+    new file:   img/code.gif
+    new file:   img/com.jpeg
+    new file:   img/comnu.jpeg
+    new file:   img/comuni.jpeg
+    new file:   img/conmunication .jpeg
+    new file:   img/dahlak.jpg
+    new file:   img/dahlakiland.jpg
+    new file:   img/download.png
+    new file:   img/erLogo.jpg
+    new file:   img/eritrea beach.jpg
+    new file:   img/eritrea-red-sea-cover.jpg
+    new file:   img/eritrean family madote island beach.jpeg
+    new file:   img/eritrean-butterflyfish.jpg
+    new file:   img/ficon.png
+    new file:   img/ficon.svg
+    new file:   img/fish.jpg
+    new file:   img/googleicon.jpeg
+    new file:   img/gurgusum beach massawa eritrea.jpg
+    new file:   img/house-of-abu-hamdum-massawa-2.jpg
+    new file:   img/image1.jpg
+    new file:   img/image2.jpg
+    new file:   img/image3.jpg
+    new file:   img/image4.jpg
+    new file:   img/image5.jpg
+    new file:   img/image6.jpg
+    new file:   img/image7.png
+    new file:   img/image8.jpg
+    new file:   img/image9.jpg
+    new file:   img/imagecontact.jpg
+    new file:   img/images.jpeg
+    new file:   img/images.png
+    new file:   img/information-icon-200x212.png
+    new file:   img/inicon.png
+    new file:   img/inicon.svg
+    new file:   img/itcode.jpg
+    new file:   img/massawa.jpg
+    new file:   img/myproject.jpg
+    new file:   img/project.jpg
+    new file:   img/proyecto-sparkler-palabra-escrita-imagen-comercialmente-disponible_csp3063746.jpg
+    new file:   img/red-sea-fish-2.jpg
+    new file:   img/redfish.jpg
+    new file:   img/semhar.jpg
+    new file:   img/semhar1.jpg
+    new file:   img/semhar2.jpg
+    new file:   index.html
+    new file:   js/.DS_Store
+    new file:   js/hamburgerMenu.js
+    new file:   js/jquery-3.3.1.min.js
+    new file:   js/myScript.js
+    new file:   projects/project_four.html
+    new file:   projects/project_one.html
+    new file:   projects/project_three.html
+    new file:   projects/project_two.html
+    new file:   projects/style.css
+    new file:   slick/.DS_Store
+    new file:   slick/ajax-loader.gif
+    new file:   slick/config.rb
+    new file:   slick/fonts/slick.eot
+    new file:   slick/fonts/slick.svg
+    new file:   slick/fonts/slick.ttf
+    new file:   slick/fonts/slick.woff
+    new file:   slick/slick-theme.css
+    new file:   slick/slick-theme.less
+    new file:   slick/slick-theme.scss
+    new file:   slick/slick.css
+    new file:   slick/slick.js
+    new file:   slick/slick.less
+    new file:   slick/slick.min.js
+    new file:   slick/slick.scss
+
+e17442:my-profile ssium$ git commit
+Aborting commit due to empty commit message.
+e17442:my-profile ssium$ 
+e17442:my-profile ssium$ 
+e17442:my-profile ssium$ 
+e17442:my-profile ssium$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+    new file:   .DS_Store
+    new file:   css/.DS_Store
+    new file:   css/reset.css
+    new file:   css/style.css
+    new file:   img/.DS_Store
+    new file:   img/39051976650_3d97a05b1e_b.jpg
+    new file:   img/45763776_285522602170461_689190587122843648_n.png
+    new file:   img/Cv-Semhar-Sium.pdf
+    new file:   img/DMtNUuXVoAAbg7s.jpg
+    new file:   img/DPFDccnWAAAC1rf.jpg
+    new file:   img/DkoPTLTXcAAPzPq.jpg
+    new file:   img/Document1.docx
+    new file:   img/Document2.docx
+    new file:   img/Eritrean_Railway_-_2008-11-04-edit1.jpg
+    new file:   img/ItLogo.png
+    new file:   img/UoL-reference-form-updated-12 (1).pdf
+    new file:   img/code.gif
+    new file:   img/com.jpeg
+    new file:   img/comnu.jpeg
+    new file:   img/comuni.jpeg
+    new file:   img/conmunication .jpeg
+    new file:   img/dahlak.jpg
+    new file:   img/dahlakiland.jpg
+    new file:   img/download.png
+    new file:   img/erLogo.jpg
+    new file:   img/eritrea beach.jpg
+    new file:   img/eritrea-red-sea-cover.jpg
+    new file:   img/eritrean family madote island beach.jpeg
+    new file:   img/eritrean-butterflyfish.jpg
+    new file:   img/ficon.png
+    new file:   img/ficon.svg
+    new file:   img/fish.jpg
+    new file:   img/googleicon.jpeg
+    new file:   img/gurgusum beach massawa eritrea.jpg
+    new file:   img/house-of-abu-hamdum-massawa-2.jpg
+    new file:   img/image1.jpg
+    new file:   img/image2.jpg
+    new file:   img/image3.jpg
+    new file:   img/image4.jpg
+    new file:   img/image5.jpg
+    new file:   img/image6.jpg
+    new file:   img/image7.png
+    new file:   img/image8.jpg
+    new file:   img/image9.jpg
+    new file:   img/imagecontact.jpg
+    new file:   img/images.jpeg
+    new file:   img/images.png
+    new file:   img/information-icon-200x212.png
+    new file:   img/inicon.png
+    new file:   img/inicon.svg
+    new file:   img/itcode.jpg
+    new file:   img/massawa.jpg
+    new file:   img/myproject.jpg
+    new file:   img/project.jpg
+    new file:   img/proyecto-sparkler-palabra-escrita-imagen-comercialmente-disponible_csp3063746.jpg
+    new file:   img/red-sea-fish-2.jpg
+    new file:   img/redfish.jpg
+    new file:   img/semhar.jpg
+    new file:   img/semhar1.jpg
+    new file:   img/semhar2.jpg
+    new file:   index.html
+    new file:   js/.DS_Store
+    new file:   js/hamburgerMenu.js
+    new file:   js/jquery-3.3.1.min.js
+    new file:   js/myScript.js
+    new file:   projects/project_four.html
+    new file:   projects/project_one.html
+    new file:   projects/project_three.html
+    new file:   projects/project_two.html
+    new file:   projects/style.css
+    new file:   slick/.DS_Store
+    new file:   slick/ajax-loader.gif
+    new file:   slick/config.rb
+    new file:   slick/fonts/slick.eot
+    new file:   slick/fonts/slick.svg
+    new file:   slick/fonts/slick.ttf
+    new file:   slick/fonts/slick.woff
+    new file:   slick/slick-theme.css
+    new file:   slick/slick-theme.less
+    new file:   slick/slick-theme.scss
+    new file:   slick/slick.css
+    new file:   slick/slick.js
+    new file:   slick/slick.less
+    new file:   slick/slick.min.js
+    new file:   slick/slick.scss
+
+e17442:my-profile ssium$ git commit
+Aborting commit due to empty commit message.
+e17442:my-profile ssium$ git commit
+Aborting commit due to empty commit message.
+e17442:my-profile ssium$ git commit -m "init project"
+[master (root-commit) 10da929] init project
+ Committer: Semhar Sium <ssium@e17442.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 85 files changed, 5563 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 css/.DS_Store
+ create mode 100644 css/reset.css
+ create mode 100644 css/style.css
+ create mode 100644 img/.DS_Store
+ create mode 100644 img/39051976650_3d97a05b1e_b.jpg
+ create mode 100644 img/45763776_285522602170461_689190587122843648_n.png
+ create mode 100644 img/Cv-Semhar-Sium.pdf
+ create mode 100644 img/DMtNUuXVoAAbg7s.jpg
+ create mode 100644 img/DPFDccnWAAAC1rf.jpg
+ create mode 100644 img/DkoPTLTXcAAPzPq.jpg
+ create mode 100644 img/Document1.docx
+ create mode 100644 img/Document2.docx
+ create mode 100644 img/Eritrean_Railway_-_2008-11-04-edit1.jpg
+ create mode 100644 img/ItLogo.png
+ create mode 100644 img/UoL-reference-form-updated-12 (1).pdf
+ create mode 100644 img/code.gif
+ create mode 100644 img/com.jpeg
+ create mode 100644 img/comnu.jpeg
+ create mode 100644 img/comuni.jpeg
+ create mode 100644 img/conmunication .jpeg
+ create mode 100644 img/dahlak.jpg
+ create mode 100644 img/dahlakiland.jpg
+ create mode 100644 img/download.png
+ create mode 100644 img/erLogo.jpg
+ create mode 100644 img/eritrea beach.jpg
+ create mode 100644 img/eritrea-red-sea-cover.jpg
+ create mode 100644 img/eritrean family madote island beach.jpeg
+ create mode 100644 img/eritrean-butterflyfish.jpg
+ create mode 100644 img/ficon.png
+ create mode 100644 img/ficon.svg
+ create mode 100644 img/fish.jpg
+ create mode 100644 img/googleicon.jpeg
+ create mode 100644 img/gurgusum beach massawa eritrea.jpg
+ create mode 100644 img/house-of-abu-hamdum-massawa-2.jpg
+ create mode 100644 img/image1.jpg
+ create mode 100644 img/image2.jpg
+ create mode 100644 img/image3.jpg
+ create mode 100644 img/image4.jpg
+ create mode 100644 img/image5.jpg
+ create mode 100644 img/image6.jpg
+ create mode 100644 img/image7.png
+ create mode 100644 img/image8.jpg
+ create mode 100644 img/image9.jpg
+ create mode 100644 img/imagecontact.jpg
+ create mode 100644 img/images.jpeg
+ create mode 100644 img/images.png
+ create mode 100644 img/information-icon-200x212.png
+ create mode 100644 img/inicon.png
+ create mode 100644 img/inicon.svg
+ create mode 100644 img/itcode.jpg
+ create mode 100644 img/massawa.jpg
+ create mode 100644 img/myproject.jpg
+ create mode 100644 img/project.jpg
+ create mode 100644 img/proyecto-sparkler-palabra-escrita-imagen-comercialmente-disponible_csp3063746.jpg
+ create mode 100644 img/red-sea-fish-2.jpg
+ create mode 100644 img/redfish.jpg
+ create mode 100644 img/semhar.jpg
+ create mode 100644 img/semhar1.jpg
+ create mode 100644 img/semhar2.jpg
+ create mode 100644 index.html
+ create mode 100644 js/.DS_Store
+ create mode 100644 js/hamburgerMenu.js
+ create mode 100644 js/jquery-3.3.1.min.js
+ create mode 100644 js/myScript.js
+ create mode 100644 projects/project_four.html
+ create mode 100644 projects/project_one.html
+ create mode 100644 projects/project_three.html
+ create mode 100644 projects/project_two.html
+ create mode 100644 projects/style.css
+ create mode 100644 slick/.DS_Store
+ create mode 100755 slick/ajax-loader.gif
+ create mode 100755 slick/config.rb
+ create mode 100755 slick/fonts/slick.eot
+ create mode 100755 slick/fonts/slick.svg
+ create mode 100755 slick/fonts/slick.ttf
+ create mode 100755 slick/fonts/slick.woff
+ create mode 100755 slick/slick-theme.css
+ create mode 100755 slick/slick-theme.less
+ create mode 100755 slick/slick-theme.scss
+ create mode 100755 slick/slick.css
+ create mode 100755 slick/slick.js
+ create mode 100755 slick/slick.less
+ create mode 100755 slick/slick.min.js
+ create mode 100755 slick/slick.scss
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+e17442:my-profile ssium$ git push
+Counting objects: 92, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (92/92), done.
+Writing objects: 100% (92/92), 10.05 MiB | 1.46 MiB/s, done.
+Total 92 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/semharsium/my-profile.git
+ * [new branch]      master -> master
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   .DS_Store
+    modified:   css/style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+e17442:my-profile ssium$ git commit - m "change header color"
+error: pathspec '-' did not match any file(s) known to git.
+error: pathspec 'm' did not match any file(s) known to git.
+error: pathspec 'change header color' did not match any file(s) known to git.
+e17442:my-profile ssium$ git commit -m "change header color"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+    modified:   .DS_Store
+    modified:   css/style.css
+
+no changes added to commit
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   .DS_Store
+    modified:   css/style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+e17442:my-profile ssium$ git add style.css
+fatal: pathspec 'style.css' did not match any files
+e17442:my-profile ssium$ git add css/style.css
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    modified:   css/style.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   .DS_Store
+
+e17442:my-profile ssium$ add style.css
+-bash: add: command not found
+e17442:my-profile ssium$ git add style.css
+fatal: pathspec 'style.css' did not match any files
+e17442:my-profile ssium$ ls -l
+total 32
+drwxr-xr-x   5 ssium  1030016046    160 Nov 26 14:04 css
+drwxr-xr-x  58 ssium  1030016046   1856 Jan  4 16:15 img
+-rw-r--r--@  1 ssium  1030016046  13214 Jan  8 11:46 index.html
+drwxr-xr-x   6 ssium  1030016046    192 Dec 18 15:48 js
+drwxr-xr-x   7 ssium  1030016046    224 Jan  8 11:34 projects
+drwxr-xr-x@ 14 ssium  1030016046    448 Dec 14 15:59 slick
+e17442:my-profile ssium$ cd css
+e17442:css ssium$ li -l
+-bash: li: command not found
+e17442:css ssium$ pwd
+/Users/ssium/projects/one_page_JQ/my-profile/css
+e17442:css ssium$ cd ..
+e17442:my-profile ssium$ ls -l
+total 32
+drwxr-xr-x   5 ssium  1030016046    160 Nov 26 14:04 css
+drwxr-xr-x  58 ssium  1030016046   1856 Jan  4 16:15 img
+-rw-r--r--@  1 ssium  1030016046  13214 Jan  8 11:46 index.html
+drwxr-xr-x   6 ssium  1030016046    192 Dec 18 15:48 js
+drwxr-xr-x   7 ssium  1030016046    224 Jan  8 11:34 projects
+drwxr-xr-x@ 14 ssium  1030016046    448 Dec 14 15:59 slick
+e17442:my-profile ssium$ git add css/style.css 
+e17442:my-profile ssium$ git commit -m "change color"
+[master 5a8c2b4] change color
+ Committer: Semhar Sium <ssium@e17442.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   .DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+e17442:my-profile ssium$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 350 bytes | 350.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/semharsium/my-profile.git
+   10da929..5a8c2b4  master -> master
+e17442:my-profile ssium$ ls -l
+total 32
+drwxr-xr-x   5 ssium  1030016046    160 Nov 26 14:04 css
+drwxr-xr-x  58 ssium  1030016046   1856 Jan  4 16:15 img
+-rw-r--r--@  1 ssium  1030016046  13214 Jan  8 11:46 index.html
+drwxr-xr-x   6 ssium  1030016046    192 Dec 18 15:48 js
+drwxr-xr-x   7 ssium  1030016046    224 Jan  8 11:34 projects
+drwxr-xr-x@ 14 ssium  1030016046    448 Dec 14 15:59 slick
+e17442:my-profile ssium$ git add css/style.css
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    modified:   css/style.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   .DS_Store
+
+e17442:my-profile ssium$ pwd
+/Users/ssium/projects/one_page_JQ/my-profile
+e17442:my-profile ssium$ li -l
+-bash: li: command not found
+e17442:my-profile ssium$ pwd
+/Users/ssium/projects/one_page_JQ/my-profile
+e17442:my-profile ssium$ li -l
+-bash: li: command not found
+e17442:my-profile ssium$ ls -l
+total 32
+drwxr-xr-x   5 ssium  1030016046    160 Nov 26 14:04 css
+drwxr-xr-x  58 ssium  1030016046   1856 Jan  4 16:15 img
+-rw-r--r--@  1 ssium  1030016046  13214 Jan  8 11:46 index.html
+drwxr-xr-x   6 ssium  1030016046    192 Dec 18 15:48 js
+drwxr-xr-x   7 ssium  1030016046    224 Jan  8 11:34 projects
+drwxr-xr-x@ 14 ssium  1030016046    448 Dec 14 15:59 slick
+e17442:my-profile ssium$ git add css/style.css
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    modified:   css/style.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   .DS_Store
+
+e17442:my-profile ssium$ git commit -m "change color"
+[master aaa3596] change color
+ Committer: Semhar Sium <ssium@e17442.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   .DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+e17442:my-profile ssium$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 352 bytes | 352.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/semharsium/my-profile.git
+   5a8c2b4..aaa3596  master -> master
+e17442:my-profile ssium$ 
+  [Restored 8 Jan 2019 at 21:36:27]
+Last login: Tue Jan  8 21:36:27 on ttys000
+e17442:my-profile ssium$ 
+  [Restored 9 Jan 2019 at 09:42:14]
+Last login: Wed Jan  9 09:42:14 on ttys000
+e17442:my-profile ssium$ ls -la
+total 64
+drwxr-xr-x  10 ssium  1030016046    320 Jan  8 16:49 .
+drwxr-xr-x   4 ssium  1030016046    128 Jan  8 16:49 ..
+-rw-r--r--@  1 ssium  1030016046  12292 Jan  8 17:30 .DS_Store
+drwxr-xr-x  12 ssium  1030016046    384 Jan  8 17:54 .git
+drwxr-xr-x   5 ssium  1030016046    160 Nov 26 14:04 css
+drwxr-xr-x  58 ssium  1030016046   1856 Jan  4 16:15 img
+-rw-r--r--@  1 ssium  1030016046  13214 Jan  8 11:46 index.html
+drwxr-xr-x   6 ssium  1030016046    192 Dec 18 15:48 js
+drwxr-xr-x   7 ssium  1030016046    224 Jan  8 11:34 projects
+drwxr-xr-x@ 14 ssium  1030016046    448 Dec 14 15:59 slick
+e17442:my-profile ssium$ rm .DS_Store 
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    deleted:    .DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+e17442:my-profile ssium$ git commit -m ".DS_Store deleted"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+    deleted:    .DS_Store
+
+no changes added to commit
+e17442:my-profile ssium$ git add .
+e17442:my-profile ssium$ git commit -m ".DS_Store deleted"
+[master bd18bb5] .DS_Store deleted
+ Committer: Semhar Sium <ssium@e17442.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 .DS_Store
+e17442:my-profile ssium$ git push
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 225 bytes | 225.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/semharsium/my-profile.git
+   aaa3596..bd18bb5  master -> master
+e17442:my-profile ssium$ 
+  [Restored 9 Jan 2019 at 11:21:52]
+Last login: Wed Jan  9 11:21:46 on console
+e17442:my-profile ssium$ 
+  [Restored 9 Jan 2019 at 19:30:11]
+Last login: Wed Jan  9 19:30:11 on ttys000
+e17442:my-profile ssium$ cd
+e17442:~ ssium$ git clone semi
+fatal: repository 'semi' does not exist
+e17442:~ ssium$ ggit clone https://github.com/semharsium/my-profile.git
+-bash: ggit: command not found
+e17442:~ ssium$ git clone https://github.com/semharsium/my-profile.git
+Cloning into 'my-profile'...
+remote: Enumerating objects: 102, done.
+remote: Counting objects: 100% (102/102), done.
+remote: Compressing objects: 100% (90/90), done.
+remote: Total 102 (delta 15), reused 99 (delta 12), pack-reused 0
+Receiving objects: 100% (102/102), 10.05 MiB | 6.15 MiB/s, done.
+Resolving deltas: 100% (15/15), done.
+e17442:~ ssium$ git clone https://github.com/semharsium/my-profile.git
+fatal: destination path 'my-profile' already exists and is not an empty directory.
+e17442:~ ssium$ git clone https://github.com/semharsium/my-profile.git
+fatal: destination path 'my-profile' already exists and is not an empty directory.
+e17442:~ ssium$ ls -l
+total 0
+drwx------@  4 ssium  1030016046   128 Oct  1 09:46 Applications
+drwx------+ 13 ssium  1030016046   416 Jan  8 12:11 Desktop
+drwx------+  3 ssium  1030016046    96 Oct 17 17:27 Documents
+drwx------+ 46 ssium  1030016046  1472 Jan  9 08:57 Downloads
+drwx------@ 58 ssium  1030016046  1856 Oct  1 09:40 Library
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Movies
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Music
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Pictures
+drwxr-xr-x+  4 ssium  1030016046   128 Sep 26 10:10 Public
+drwxr-xr-x   2 ssium  1030016046    64 Oct  1 13:49 firstfile
+drwxr-xr-x   9 ssium  1030016046   288 Jan  9 19:37 my-profile
+drwxr-xr-x  16 ssium  1030016046   512 Jan  9 19:39 projects
+drwxr-xr-x   2 ssium  1030016046    64 Jan  8 13:43 semhar2
+e17442:~ ssium$ cd projects
+e17442:projects ssium$ ls -l
+total 0
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03  JQ copy
+drwxr-xr-x  10 ssium  1030016046  320 Nov  9 19:18 Portfolio
+drwxr-xr-x   6 ssium  1030016046  192 Oct 23 10:59 array
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator copy
+drwxr-xr-x   6 ssium  1030016046  192 Oct  3 09:24 cartoon
+drwxr-xr-x   7 ssium  1030016046  224 Oct 10 17:23 keyframes
+drwxr-xr-x   5 ssium  1030016046  160 Oct  5 22:54 lisa
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy 2
+drwxr-xr-x   4 ssium  1030016046  128 Jan  8 16:49 one_page_JQ
+drwxr-xr-x   5 ssium  1030016046  160 Nov  7 15:05 semhar
+e17442:projects ssium$ cd one_page_JQ/
+e17442:one_page_JQ ssium$ ls -l
+total 0
+drwxr-xr-x  9 ssium  1030016046  288 Jan  9 10:28 my-profile
+e17442:one_page_JQ ssium$ git clone https://github.com/semharsium/my-profile.git
+fatal: destination path 'my-profile' already exists and is not an empty directory.
+e17442:one_page_JQ ssium$ touch semi
+e17442:one_page_JQ ssium$ rm semi
+e17442:one_page_JQ ssium$ mk dir semi
+-bash: mk: command not found
+e17442:one_page_JQ ssium$ mkdir semi
+e17442:one_page_JQ ssium$ rm semi
+rm: semi: is a directory
+e17442:one_page_JQ ssium$ rm -rf semi
+e17442:one_page_JQ ssium$ ggit clone https://github.com/semharsium/my-profile.git
+-bash: ggit: command not found
+e17442:one_page_JQ ssium$ git clone https://github.com/semharsium/my-profile.git
+fatal: destination path 'my-profile' already exists and is not an empty directory.
+e17442:one_page_JQ ssium$ mkdir semi
+e17442:one_page_JQ ssium$ ls -l
+total 0
+drwxr-xr-x  9 ssium  1030016046  288 Jan  9 10:28 my-profile
+drwxr-xr-x  2 ssium  1030016046   64 Jan  9 20:00 semi
+e17442:one_page_JQ ssium$ rm -rf semi
+e17442:one_page_JQ ssium$ cd
+e17442:~ ssium$ ls -l
+total 0
+drwx------@  4 ssium  1030016046   128 Oct  1 09:46 Applications
+drwx------+ 13 ssium  1030016046   416 Jan  8 12:11 Desktop
+drwx------+  3 ssium  1030016046    96 Oct 17 17:27 Documents
+drwx------+ 46 ssium  1030016046  1472 Jan  9 08:57 Downloads
+drwx------@ 58 ssium  1030016046  1856 Oct  1 09:40 Library
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Movies
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Music
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Pictures
+drwxr-xr-x+  4 ssium  1030016046   128 Sep 26 10:10 Public
+drwxr-xr-x   2 ssium  1030016046    64 Oct  1 13:49 firstfile
+drwxr-xr-x   9 ssium  1030016046   288 Jan  9 19:37 my-profile
+drwxr-xr-x  16 ssium  1030016046   512 Jan  9 19:39 projects
+drwxr-xr-x   2 ssium  1030016046    64 Jan  8 13:43 semhar2
+e17442:~ ssium$ cd projects
+e17442:projects ssium$ mkdir semi
+e17442:projects ssium$ git clone  https://github.com/semharsium/my-profile.git
+Cloning into 'my-profile'...
+remote: Enumerating objects: 102, done.
+remote: Counting objects: 100% (102/102), done.
+remote: Compressing objects: 100% (90/90), done.
+remote: Total 102 (delta 15), reused 99 (delta 12), pack-reused 0
+Receiving objects: 100% (102/102), 10.05 MiB | 6.09 MiB/s, done.
+Resolving deltas: 100% (15/15), done.
+e17442:projects ssium$ ls -l
+total 0
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03  JQ copy
+drwxr-xr-x  10 ssium  1030016046  320 Nov  9 19:18 Portfolio
+drwxr-xr-x   6 ssium  1030016046  192 Oct 23 10:59 array
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator copy
+drwxr-xr-x   6 ssium  1030016046  192 Oct  3 09:24 cartoon
+drwxr-xr-x   7 ssium  1030016046  224 Oct 10 17:23 keyframes
+drwxr-xr-x   5 ssium  1030016046  160 Oct  5 22:54 lisa
+drwxr-xr-x   9 ssium  1030016046  288 Jan  9 20:02 my-profile
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy 2
+drwxr-xr-x   4 ssium  1030016046  128 Jan  9 20:01 one_page_JQ
+drwxr-xr-x   5 ssium  1030016046  160 Nov  7 15:05 semhar
+drwxr-xr-x   2 ssium  1030016046   64 Jan  9 20:01 semi
+e17442:projects ssium$ cd semi
+e17442:semi ssium$ ls -l
+e17442:semi ssium$ ls -l
+total 32
+drwxr-xr-x   5 ssium  1030016046    160 Nov 26 14:04 css
+drwxr-xr-x  58 ssium  1030016046   1856 Jan  4 16:15 img
+-rw-r--r--@  1 ssium  1030016046  13214 Jan  8 11:46 index.html
+drwxr-xr-x   6 ssium  1030016046    192 Dec 18 15:48 js
+drwxr-xr-x   7 ssium  1030016046    224 Jan  8 11:34 projects
+drwxr-xr-x@ 14 ssium  1030016046    448 Dec 14 15:59 slick
+e17442:semi ssium$ pwd
+/Users/ssium/projects/semi
+e17442:semi ssium$ rm -rf semi
+e17442:semi ssium$ cd
+e17442:~ ssium$ ls -l
+total 0
+drwx------@  4 ssium  1030016046   128 Oct  1 09:46 Applications
+drwx------+ 13 ssium  1030016046   416 Jan  8 12:11 Desktop
+drwx------+  3 ssium  1030016046    96 Oct 17 17:27 Documents
+drwx------+ 46 ssium  1030016046  1472 Jan  9 08:57 Downloads
+drwx------@ 58 ssium  1030016046  1856 Oct  1 09:40 Library
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Movies
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Music
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Pictures
+drwxr-xr-x+  4 ssium  1030016046   128 Sep 26 10:10 Public
+drwxr-xr-x   2 ssium  1030016046    64 Oct  1 13:49 firstfile
+drwxr-xr-x   9 ssium  1030016046   288 Jan  9 19:37 my-profile
+drwxr-xr-x  18 ssium  1030016046   576 Jan  9 20:02 projects
+drwxr-xr-x   2 ssium  1030016046    64 Jan  8 13:43 semhar2
+e17442:~ ssium$ cd projects
+e17442:projects ssium$ cd semi
+e17442:semi ssium$ rm -rf semi
+e17442:semi ssium$ cd 
+e17442:~ ssium$ ls l
+ls: l: No such file or directory
+e17442:~ ssium$ ls -l
+total 0
+drwx------@  4 ssium  1030016046   128 Oct  1 09:46 Applications
+drwx------+ 13 ssium  1030016046   416 Jan  8 12:11 Desktop
+drwx------+  3 ssium  1030016046    96 Oct 17 17:27 Documents
+drwx------+ 46 ssium  1030016046  1472 Jan  9 08:57 Downloads
+drwx------@ 58 ssium  1030016046  1856 Oct  1 09:40 Library
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Movies
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Music
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Pictures
+drwxr-xr-x+  4 ssium  1030016046   128 Sep 26 10:10 Public
+drwxr-xr-x   2 ssium  1030016046    64 Oct  1 13:49 firstfile
+drwxr-xr-x   9 ssium  1030016046   288 Jan  9 19:37 my-profile
+drwxr-xr-x  18 ssium  1030016046   576 Jan  9 20:02 projects
+drwxr-xr-x   2 ssium  1030016046    64 Jan  8 13:43 semhar2
+e17442:~ ssium$ cd projects
+e17442:projects ssium$ ls -l
+total 0
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03  JQ copy
+drwxr-xr-x  10 ssium  1030016046  320 Nov  9 19:18 Portfolio
+drwxr-xr-x   6 ssium  1030016046  192 Oct 23 10:59 array
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator copy
+drwxr-xr-x   6 ssium  1030016046  192 Oct  3 09:24 cartoon
+drwxr-xr-x   7 ssium  1030016046  224 Oct 10 17:23 keyframes
+drwxr-xr-x   5 ssium  1030016046  160 Oct  5 22:54 lisa
+drwxr-xr-x   9 ssium  1030016046  288 Jan  9 20:02 my-profile
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy 2
+drwxr-xr-x   4 ssium  1030016046  128 Jan  9 20:01 one_page_JQ
+drwxr-xr-x   5 ssium  1030016046  160 Nov  7 15:05 semhar
+drwxr-xr-x   9 ssium  1030016046  288 Jan  9 20:06 semi
+e17442:projects ssium$ rm -rf semi
+e17442:projects ssium$ rm semi
+rm: semi: No such file or directory
+e17442:projects ssium$ git clone https://github.com/semharsium/my-profile.git semi
+Cloning into 'semi'...
+remote: Enumerating objects: 102, done.
+remote: Counting objects: 100% (102/102), done.
+remote: Compressing objects: 100% (90/90), done.
+remote: Total 102 (delta 15), reused 99 (delta 12), pack-reused 0
+Receiving objects: 100% (102/102), 10.05 MiB | 4.44 MiB/s, done.
+Resolving deltas: 100% (15/15), done.
+e17442:projects ssium$ ls -l
+total 0
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03  JQ copy
+drwxr-xr-x  10 ssium  1030016046  320 Nov  9 19:18 Portfolio
+drwxr-xr-x   6 ssium  1030016046  192 Oct 23 10:59 array
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator copy
+drwxr-xr-x   6 ssium  1030016046  192 Oct  3 09:24 cartoon
+drwxr-xr-x   7 ssium  1030016046  224 Oct 10 17:23 keyframes
+drwxr-xr-x   5 ssium  1030016046  160 Oct  5 22:54 lisa
+drwxr-xr-x   9 ssium  1030016046  288 Jan  9 20:02 my-profile
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy 2
+drwxr-xr-x   4 ssium  1030016046  128 Jan  9 20:01 one_page_JQ
+drwxr-xr-x   5 ssium  1030016046  160 Nov  7 15:05 semhar
+drwxr-xr-x   9 ssium  1030016046  288 Jan  9 20:28 semi
+e17442:projects ssium$ rm -rf semi
+e17442:projects ssium$ cd
+e17442:~ ssium$ ls -l
+total 0
+drwx------@  4 ssium  1030016046   128 Oct  1 09:46 Applications
+drwx------+ 13 ssium  1030016046   416 Jan  8 12:11 Desktop
+drwx------+  3 ssium  1030016046    96 Oct 17 17:27 Documents
+drwx------+ 46 ssium  1030016046  1472 Jan  9 08:57 Downloads
+drwx------@ 58 ssium  1030016046  1856 Oct  1 09:40 Library
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Movies
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Music
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Pictures
+drwxr-xr-x+  4 ssium  1030016046   128 Sep 26 10:10 Public
+drwxr-xr-x   2 ssium  1030016046    64 Oct  1 13:49 firstfile
+drwxr-xr-x   9 ssium  1030016046   288 Jan  9 19:37 my-profile
+drwxr-xr-x  17 ssium  1030016046   544 Jan  9 20:36 projects
+drwxr-xr-x   2 ssium  1030016046    64 Jan  8 13:43 semhar2
+e17442:~ ssium$ ls
+Applications    Downloads   Music       firstfile   semhar2
+Desktop     Library     Pictures    my-profile
+Documents   Movies      Public      projects
+e17442:~ ssium$ 
+  [Restored 9 Jan 2019 at 21:40:35]
+Last login: Wed Jan  9 21:40:35 on ttys000
+Restored session: Wed Jan  9 21:39:47 CET 2019
+e17442:~ ssium$ cd
+e17442:~ ssium$ ls -l
+total 0
+drwx------@  4 ssium  1030016046   128 Oct  1 09:46 Applications
+drwx------+ 13 ssium  1030016046   416 Jan  8 12:11 Desktop
+drwx------+  3 ssium  1030016046    96 Oct 17 17:27 Documents
+drwx------+ 46 ssium  1030016046  1472 Jan  9 08:57 Downloads
+drwx------@ 58 ssium  1030016046  1856 Oct  1 09:40 Library
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Movies
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Music
+drwx------+  3 ssium  1030016046    96 Sep 26 10:10 Pictures
+drwxr-xr-x+  4 ssium  1030016046   128 Sep 26 10:10 Public
+drwxr-xr-x   2 ssium  1030016046    64 Oct  1 13:49 firstfile
+drwxr-xr-x   9 ssium  1030016046   288 Jan  9 19:37 my-profile
+drwxr-xr-x  17 ssium  1030016046   544 Jan  9 20:36 projects
+drwxr-xr-x   2 ssium  1030016046    64 Jan  8 13:43 semhar2
+e17442:~ ssium$ cd projects
+e17442:projects ssium$ ls -l
+total 0
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03  JQ copy
+drwxr-xr-x  10 ssium  1030016046  320 Nov  9 19:18 Portfolio
+drwxr-xr-x   6 ssium  1030016046  192 Oct 23 10:59 array
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator
+drwxr-xr-x   6 ssium  1030016046  192 Oct 15 21:47 calculator copy
+drwxr-xr-x   6 ssium  1030016046  192 Oct  3 09:24 cartoon
+drwxr-xr-x   7 ssium  1030016046  224 Oct 10 17:23 keyframes
+drwxr-xr-x   5 ssium  1030016046  160 Oct  5 22:54 lisa
+drwxr-xr-x   9 ssium  1030016046  288 Jan  9 20:02 my-profile
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy
+drwxr-xr-x   7 ssium  1030016046  224 Nov 29 13:03 one page copy 2
+drwxr-xr-x   4 ssium  1030016046  128 Jan  9 20:01 one_page_JQ
+drwxr-xr-x   5 ssium  1030016046  160 Nov  7 15:05 semhar
+e17442:projects ssium$ cd one_page_JQ/
+e17442:one_page_JQ ssium$ ls -l
+total 0
+drwxr-xr-x  10 ssium  1030016046  320 Jan  9 20:03 my-profile
+e17442:one_page_JQ ssium$ ls -l
+total 0
+drwxr-xr-x  10 ssium  1030016046  320 Jan  9 20:03 my-profile
+e17442:one_page_JQ ssium$ git add https://semharsium.github.io/Git-group/cd
+fatal: not a git repository (or any of the parent directories): .git
+e17442:one_page_JQ ssium$ pwd
+/Users/ssium/projects/one_page_JQ
+e17442:one_page_JQ ssium$ ls -l
+total 0
+drwxr-xr-x  10 ssium  1030016046  320 Jan  9 20:03 my-profile
+e17442:one_page_JQ ssium$ pwd
+/Users/ssium/projects/one_page_JQ
+e17442:one_page_JQ ssium$ cd my-profile/
+e17442:my-profile ssium$ ls -l
+total 32
+drwxr-xr-x   5 ssium  1030016046    160 Nov 26 14:04 css
+drwxr-xr-x  58 ssium  1030016046   1856 Jan  4 16:15 img
+-rw-r--r--@  1 ssium  1030016046  13219 Jan  9 23:20 index.html
+drwxr-xr-x   6 ssium  1030016046    192 Dec 18 15:48 js
+drwxr-xr-x   7 ssium  1030016046    224 Jan  8 11:34 projects
+drwxr-xr-x@ 14 ssium  1030016046    448 Dec 14 15:59 slick
+e17442:my-profile ssium$ git add css/style.css
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    modified:   css/style.css
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    .DS_Store
+
+e17442:my-profile ssium$ git commit -m " right changed"
+[master 008f2ad]  right changed
+ Committer: Semhar Sium <ssium@e17442.home>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    .DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+e17442:my-profile ssium$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 378 bytes | 378.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/semharsium/my-profile.git
+   bd18bb5..008f2ad  master -> master
+e17442:my-profile ssium$ ls -l
+total 32
+drwxr-xr-x   5 ssium  1030016046    160 Nov 26 14:04 css
+drwxr-xr-x  58 ssium  1030016046   1856 Jan  4 16:15 img
+-rw-r--r--@  1 ssium  1030016046  13219 Jan  9 23:20 index.html
+drwxr-xr-x   6 ssium  1030016046    192 Dec 18 15:48 js
+drwxr-xr-x   7 ssium  1030016046    224 Jan  8 11:34 projects
+drwxr-xr-x@ 14 ssium  1030016046    448 Dec 14 15:59 slick
+e17442:my-profile ssium$ git add index.html
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    .DS_Store
+
+e17442:my-profile ssium$ git commit -m "text changed"
+[master 4ff0144] text changed
+ Committer: Semhar Sium <ssium@e17442.home>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+e17442:my-profile ssium$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    .DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+e17442:my-profile ssium$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 332 bytes | 332.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/semharsium/my-profile.git
+   008f2ad..4ff0144  master -> master
+e17442:my-profile ssium$ 
+*/
