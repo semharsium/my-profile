@@ -20,6 +20,7 @@ $(document).ready(function() {
         var panel = this.dataset.panelConnector;
         $(".panel__content--active").removeClass("panel__content--active");
         $(".js-panel-aboutme[data-panel='" + panel +  "']").addClass("panel__content--active");
+        $('.slider-image__container').slick('refresh');
     });
 });
 
