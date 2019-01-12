@@ -16,7 +16,7 @@ $(document).ready(function() {
         autoplayspeed: 2000,
     });
 
-    $(".js-about-me").click(function(event){
+    $(".js-about-me").click(function(){
         var panel = this.dataset.panelConnector;
         $(".panel__content--active").removeClass("panel__content--active");
         $(".js-panel-aboutme[data-panel='" + panel +  "']").addClass("panel__content--active");
