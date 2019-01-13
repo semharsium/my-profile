@@ -969,11 +969,11 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
     width: 50%;
   }
   .form.form--container {
-    width: 50%;
+    width: 60%;
     height: 600px;
     box-sizing: border-box;
     padding: 40px;
-    margin-right: 30%;
+    margin-right: 20%;
   }
   .form__contact{
     display: flex;
