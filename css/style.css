@@ -954,7 +954,7 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
     height: 80%;
     width: 50%;
     color: black;
-    margin: 0%10%;
+    margin: 0% 10% 0% 30%;
   }
   .contactheader__mini{
     margin: 16px 0px 19px 36px;
@@ -969,7 +969,7 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
     width: 50%;
   }
   .form.form--container {
-    width: 40%;
+    width: 50%;
     height: 600px;
     box-sizing: border-box;
     padding: 40px;
