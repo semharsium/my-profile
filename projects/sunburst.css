@@ -19,9 +19,7 @@ pre.prettyprint, code.prettyprint {
 }
 
 pre.prettyprint {
-	width: 103%;
-	margin: 1em auto;
-	padding: 1em;
+	width: 100%;
 	white-space: pre-wrap;
 }
 
