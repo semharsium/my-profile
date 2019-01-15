@@ -6,6 +6,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 .main__project{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -19,4 +20,42 @@
 }
 .projectlink:hover{
     color: bisque;
+}
+@media screen and (min-width: 481px) and (max-width: 699px){
+    .main__project{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .paragraph__content{
+        font-size: 22px;
+        width: 100%;
+    }
+    .list__tasks{
+        font-size: 22px;
+    }
+    .projectlink:hover{
+        color: bisque;
+    }
+}
+@media screen and (min-width: 700px){
+    .main__project{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .paragraph__content{
+        font-size: 22px;
+        width: 50%;
+    }
+    .list__tasks{
+        font-size: 22px;
+    }
+    .projectlink:hover{
+        color: bisque;
+    }
 }
