@@ -103,38 +103,24 @@ body {
   background-size: cover;
 }
 .alignment__image.alignment__image--one{
-  background-image: url("../img/dahlakiland.jpg");
-  background-position: top;
+  background-image: url("../img/powercoders1.jpg");
+  background-position: center;
 }
 .alignment__image.alignment__image--two{
-  background-image: url("../img/eritrean-family island beach.jpeg");
-}
-.alignment__image.alignment__image--three{
-  background-image: url("../img/house-of-abu-hamdum-massawa-2.jpg");
+  background-image: url("../img/powercoders2.jpg");
   background-size: cover;
-}
-.alignment__image.alignment__image--four{
-  background-image: url("../img/eritrea-red-sea-cover.jpg");
-  background-size: cover;
-}
-.alignment__image.alignment__image--five{
-  background-image: url("../img/red-sea-fish-2.jpg");
-  background-size: cover;
+  background-position: bottom;
 }
 .alignment__image.alignment__image--six{
-  background-image: url("../img/beach.jpg");
+  background-image: url("../img/powercoders6.jpg");
   background-size: cover;
 }
 .alignment__image.alignment__image--seven{
-  background-image: url("../img/gurgusum beach massawa eritrea.jpg");
+  background-image: url("../img/powercoders7.jpg");
   background-size: cover;
 }
 .alignment__image.alignment__image--eight{
-  background-image: url("../img/eritrea beach.jpg");
-  background-size: cover;
-}
-.alignment__image.alignment__image--nine{
-  background-image: url("../img/massawa.jpg");
+  background-image: url("../img/powercoders8.jpg");
   background-size: cover;
 }
 .helping__container{
@@ -206,6 +192,7 @@ body {
 
 .pharagrah__content.pharagrah__content--home {
  font-size: 19px;
+ line-height: 1.2;
 }
 .profileimage{
   width: 50%;
@@ -224,6 +211,7 @@ body {
 }
 .pharagrah__content.pharagrah__content--aboutme {
   font-size: 19px;
+  line-height: 1.2;
 }
  .about-me, .powercoders, .pro a{
   color:#0074D9;
@@ -402,6 +390,7 @@ div a.footerimage__icon.footerimage__icon--google::after{
   right: 55px;
   margin-top: -40px;
   font-size: 23px;
+  font-family: 'Bree Serif', serif;
 }
 div a.footerimage__icon.footerimage__icon--linkedin::after{
   color: white;
@@ -410,6 +399,7 @@ div a.footerimage__icon.footerimage__icon--linkedin::after{
   right: 48px;
   margin-top: -39px;
   font-size: 23px;
+  font-family: 'Bree Serif', serif;
 }
 div a.footerimage__icon.footerimage__icon--facebook::after{
   color: white;
@@ -418,6 +408,10 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
   right: 37px;
   margin-top: -40px;
   font-size: 23px;
+  font-family: 'Bree Serif', serif;
+}
+.contact-mail{
+  background-color: #181818;
 }
 .panel__content{
   display: none;
@@ -547,15 +541,6 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
     flex-wrap: wrap;
     flex-direction: row;
     margin: 20px;
-    padding-left: 0;
-    padding-top: 0;
-  }
-  .content__container--contact{
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     padding-left: 0;
     padding-top: 0;
   }
@@ -846,7 +831,7 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
   }
   .aside__container.aside__container--content{
     width: 50%;
-    text-align: center;
+    text-align: left;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 30px;
@@ -871,6 +856,7 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
   }
   .pharagrah__content.pharagrah__content--home {
     font-size: 19px;
+    line-height: 1.2;
   }
   .pharagrah__content--home .aboutme, .powercoders, .pro{
     color:#0074D9;
@@ -969,6 +955,9 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
     width: 50%;
   }
   .form.form--container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 60%;
     height: 600px;
     box-sizing: border-box;
