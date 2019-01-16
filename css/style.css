@@ -349,69 +349,42 @@ input[type=submit]{
   height: 155px;
 }
 .footer__container{
-  background: #0074d9ab;
+  background: #181818;
   color: white;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-   
 }
-.footer__icon{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 29px;
-  background-color: #181818;
+.contact-icons{
+  margin-bottom: 20px;
+}
+.footerimage__icon{
+  color: white;
+  margin-right: 46px;
 }
 .footer__icon img{
   width: 33px;
-  margin-bottom: 9px;
-  margin-right: 120px;
+  margin-bottom: 47px;
+  margin-right: 33px;
 }
 .socialnetwork{
-  padding-bottom: 32px;
+  padding-bottom: 81px;
+  padding-top: 52px;
   font-size: 25px;
+  text-align: center;
   color: #ffc900;
+  background-color: #181818;
 }
 .footer__paragraph{
   padding: 20px;
   background-color: black;
 }
-.footer__icon img {
-  width: 33px;
-  margin-bottom: 9px;
-  margin-right: 120px;
-}
-div a.footerimage__icon.footerimage__icon--google::after{
-  color: white;
-  content: "Google";
-  position: absolute;
-  right: 55px;
-  margin-top: -40px;
-  font-size: 23px;
-  font-family: 'Bree Serif', serif;
-}
-div a.footerimage__icon.footerimage__icon--linkedin::after{
-  color: white;
-  content: "linkedin";
-  position: absolute;
-  right: 48px;
-  margin-top: -39px;
-  font-size: 23px;
-  font-family: 'Bree Serif', serif;
-}
-div a.footerimage__icon.footerimage__icon--facebook::after{
-  color: white;
-  content: "facebook";
-  position: absolute;
-  right: 37px;
-  margin-top: -40px;
-  font-size: 23px;
-  font-family: 'Bree Serif', serif;
-}
-.contact-mail{
-  background-color: #181818;
+.contact-icons{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 .panel__content{
   display: none;
@@ -420,8 +393,6 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
 .panel__content--active{
   display: block;
 }
-
-
 @media screen and (min-width: 481px) and (max-width: 699px){
   body {
     padding: 10px;
@@ -696,22 +667,20 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
     background-color: black;
   }
   .footer__container{
-    background: #0074d9ab;
+    background: #181818;
     color: white;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
    
   }
-  .footer__icon img{
-    width: 33px;
-    margin-bottom: 9px;
-    margin-right: 120px;
-  }
   .socialnetwork{
-    padding-bottom: 32px;
+    padding-bottom: 81px;
+    padding-top: 52px;
     font-size: 25px;
+    text-align: center;
     color: #ffc900;
+    background-color: #181818;
   }
   .panel__content{
     display: none;
@@ -1000,7 +969,7 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
     height: 155px;
   }
   .footer__container{
-    background: #0074d9ab;
+    background: #181818;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -1011,23 +980,17 @@ div a.footerimage__icon.footerimage__icon--facebook::after{
     padding: 20px;
     background-color: black;
   }
-  .footer__icon{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 56px;
+  .socialnetwork{
+    padding-bottom: 81px;
+    padding-top: 52px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffc900;
     background-color: #181818;
   }
-  .footer__icon img{
-    width: 33px;
-    margin-bottom: 9px;
-    margin-right: 120px;
-  }
-  .socialnetwork{
-    padding-bottom: 32px;
-    font-size: 25px;
-    color: #ffc900;
+  .googleicon{
+    border: 1px solid;
+    border-radius: 50%;
   }
   .panel__content{
     display: none;
