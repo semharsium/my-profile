@@ -359,13 +359,12 @@ input[type=submit]{
   margin-bottom: 20px;
 }
 .footerimage__icon{
+  padding: 17px;
   color: white;
-  margin-right: 46px;
-}
-.footer__icon img{
-  width: 33px;
-  margin-bottom: 47px;
-  margin-right: 33px;
+  margin: 10px;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 100%;
 }
 .socialnetwork{
   padding-bottom: 81px;
