@@ -5,6 +5,16 @@
     padding: 10px;
     font-family: 'Open Sans', sans-serif;
 }
+.header__container{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.bttn-unite.bttn-primary{
+   color: #ffc900 !important;
+   border-color: #ffc900 !important;
+}
+
 .main__project{
     width: 100%;
     display: flex;
@@ -18,9 +28,53 @@
 .list__tasks{
     font-size: 22px;
 }
+.projectlink{
+    margin-bottom: 120px;
+}
 .projectlink:hover{
     color: bisque;
 }
+.footer__container{
+    background: #181818;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .contact-icons{
+    margin-bottom: 20px;
+  }
+  .fa-facebook-f:before{
+    padding:3px;
+  }
+  .footerimage__icon{
+    padding: 17px;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 100%;
+  }
+  .socialnetwork{
+    padding-bottom: 81px;
+    padding-top: 52px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffc900;
+    background-color: #181818;
+  }
+  .footer__paragraph{
+    padding: 20px;
+    background-color: black;
+  }
+  .contact-icons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+  }
 @media screen and (min-width: 481px) and (max-width: 699px){
     .main__project{
         width: 100%;
