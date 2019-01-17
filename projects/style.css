@@ -1,13 +1,16 @@
 * {
     box-sizing: border-box;
 }
-  body {
-    padding: 10px;
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     font-family: 'Open Sans', sans-serif;
 }
 .header__container{
     width: 100%;
-    background-color: black;
+    height: 85px;
+    background-color: blue;
     color: white;
 }
 .bttn-unite.bttn-primary{
@@ -22,8 +25,29 @@
     flex-direction: column;
     align-items: center;
 }
+.heading__main{
+    font-size: 33px;
+    padding: 20px;
+    font-family: 'Bree Serif', serif;
+}
+.heading__smaller{
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Bree Serif', serif;
+}
+.back-button{
+    position: relative;
+}
+.bttn-unite.bttn-md{
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    margin-left: 10px;
+}
 .paragraph__content{
     font-size: 22px;
+    text-align: center;
+    width: 100%
 }
 .list__tasks{
     font-size: 22px;
@@ -35,7 +59,8 @@
     color: bisque;
 }
 .footer__container{
-    background: #181818;
+    width: 100%;
+    background: blue;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -61,7 +86,7 @@
     font-size: 25px;
     text-align: center;
     color: #ffc900;
-    background-color: #181818;
+    background-color: blue;
   }
   .footer__paragraph{
     padding: 20px;
