@@ -10,8 +10,9 @@ body{
 .header__container{
     width: 100%;
     height: 85px;
-    background-color: blue;
+    background-color: #4747da;
     color: white;
+    border-bottom: 4px solid #ffc900;
 }
 .bttn-unite.bttn-primary{
    color: #ffc900 !important;
@@ -32,8 +33,10 @@ body{
 }
 .heading__smaller{
     font-size: 25px;
-    padding: 20px;
+    text-align: center;
     font-family: 'Bree Serif', serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .back-button{
     position: relative;
@@ -49,6 +52,11 @@ body{
     text-align: center;
     width: 100%
 }
+.tasks__container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 .list__tasks{
     font-size: 22px;
 }
@@ -56,11 +64,12 @@ body{
     margin-bottom: 120px;
 }
 .projectlink:hover{
-    color: bisque;
+    color: #ffc900;
+    color: #4747da;
 }
 .footer__container{
     width: 100%;
-    background: blue;
+    background: #4747da;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -86,7 +95,7 @@ body{
     font-size: 25px;
     text-align: center;
     color: #ffc900;
-    background-color: blue;
+    background-color: #4747da;
   }
   .footer__paragraph{
     padding: 20px;
