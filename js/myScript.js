@@ -2,6 +2,7 @@
 
 $(document).ready(function() {
 
+    // Please check this: https://davidwalsh.name/query-string-javascript
     function getUrlParameter(name) {
         name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
         let regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
