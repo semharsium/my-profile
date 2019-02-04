@@ -1,0 +1,302 @@
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 13px;
+  right: 16px;
+  line-height: 45px;
+  padding: 5px 15px 0px 15px;
+  color: #ffc900;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.cross {
+  background: none;
+  position: absolute;
+  top: 13px;
+  right: 16px;
+  padding: 7px 15px 0px 15px;
+  color: #ffc900;
+  border: 0;
+  font-size: 3em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 4px solid #ffc900;
+}
+.header__navigation {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+.header__navigation-inner {
+  position: relative;
+  min-height: 83px;
+  background-color: black;
+}
+.header__navigation .navigation__menu {
+  display: none;
+  background-color: black;
+  padding-top: 10px;
+}
+.header__menu {
+  font-size: 23px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  transform: translateY(-50%);
+}
+.header__menu:hover {
+  text-decoration: underline;
+  color: #ffc900;
+}
+.header-logo {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 36px;
+  width: 63px;
+  transform: translateY(-50%);
+}
+
+@media screen and (min-width: 481px) and (max-width: 699px) {
+  .header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 4px solid #ffc900;
+  }
+  .header__navigation {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }
+  .header__navigation-inner {
+    position: relative;
+    min-height: 83px;
+    background-color: black;
+  }
+  .header__navigation .navigation__menu {
+    display: none;
+    background-color: black;
+    padding-top: 10px;
+  }
+  .header__menu {
+    font-size: 25px;
+    white-space: nowrap;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    line-height: 1.5;
+    border-bottom: 1px solid black;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-family: "Roboto Mono", monospace;
+  }
+  .header__menu:hover {
+    text-decoration: underline;
+    color: #ffc900;
+  }
+  .header-logo {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 36px;
+    width: 63px;
+    transform: translateY(-50%);
+  }
+}
+@media screen and (min-width: 700px) {
+  .hamburger {
+    display: none;
+  }
+
+  .cross {
+    display: none;
+  }
+}
+.navigation__menu .navigation__list-item {
+  display: block;
+  text-align: left;
+  padding: 0px 15px 10px 15px;
+}
+.navigation__menu .navigation__list-item a {
+  display: inline;
+  text-decoration: none;
+  margin-right: 0px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.alignment__image {
+  background-position: center;
+  background-size: cover;
+}
+.alignment__image.alignment__image--one {
+  background-image: url("../img/powercoders1.jpg");
+  background-position: center;
+}
+.alignment__image.alignment__image--two {
+  background-image: url("../img/powercoders2.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.alignment__image.alignment__image--six {
+  background-image: url("../img/powercoders6.jpg");
+  background-size: cover;
+}
+.alignment__image.alignment__image--seven {
+  background-image: url("../img/powercoders7.jpg");
+  background-size: cover;
+}
+.alignment__image.alignment__image--eight {
+  background-image: url("../img/powercoders8.jpg");
+  background-size: cover;
+}
+
+.slick-prev {
+  z-index: 1;
+  left: 35px !important;
+}
+
+.slick-next {
+  z-index: 1;
+  right: 35px !important;
+}
+
+.slider-image__container .slick-prev::before, .slider-image__container .slick-prev:hover::before, .slider-image__container .slick-prev:focus::before,
+.slider-image__container .slick-next::before,
+.slider-image__container .slick-next:hover::before,
+.slider-image__container .slick-next:focus::before {
+  color: white;
+  font-size: 35px;
+}
+
+.helping__container {
+  width: 100%;
+}
+
+.content__container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content__container-text {
+  margin: 20px;
+}
+
+.aside__container.aside__container--content {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  align-items: center;
+}
+.aside__container.aside__container--content--lists-skills {
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.aside__container.aside__container--content-header-skills {
+  font-size: 30px;
+  font-family: "Bree Serif", serif;
+}
+
+.heading .heading__mini {
+  font-family: "Bree Serif", "serif";
+  margin-bottom: 14px;
+}
+.heading .heading__mini--shortdescription {
+  font-size: 30px;
+}
+.heading .heading__mini--aboutme {
+  font-size: 22px;
+}
+.heading .heading__mini--project {
+  font-size: 40px;
+  text-align: center;
+}
+
+.profileimage {
+  width: 50%;
+  height: auto;
+  margin: 7% 17% 5% 17%;
+}
+
+.paragraph .paragraph__content--home, .paragraph .paragraph__content--aboutme {
+  margin-bottom: 14px;
+  font-size: 22px;
+}
+.paragraph .paragraph__link {
+  color: #ffc900;
+}
+
+.footer__container {
+  background: #181818;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.footer__contact-icons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+.footer__socialnetwork {
+  padding-bottom: 81px;
+  padding-top: 52px;
+  font-size: 25px;
+  text-align: center;
+  color: #ffc900;
+  background-color: #181818;
+}
+.footer__icon fa-facebook-f:before {
+  padding: 3px;
+}
+.footer__paragraph {
+  padding: 20px;
+  background-color: black;
+}
+.footer-image__icon {
+  padding: 17px;
+  color: #ffc900;
+  margin: 10px;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 100%;
+}
+
+.panel__content {
+  display: none;
+}
+.panel__content--active {
+  display: block;
+}
+
+/*# sourceMappingURL=main.css.map */
